@@ -439,11 +439,13 @@ ul{
         text-align: center;
     }
     .contact .container .frm form  {
-    display: grid;
-    grid-template-columns: repeat(auto-fill,minmax(320px,1fr));
+        display: grid;
+        grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
+        margin-right: 40px ;
     }
     .contact .container .frm .text{
-        width: 320px;
+        width: 300px;
+        margin-right: 40px ;
     }
 }
 .contact .container .frm form .fm3,.fm4,.fm5{
@@ -485,11 +487,16 @@ ul{
 .footer .container .text{
     display: flex;
     justify-content: space-between;
-    padding-top: 45px;
+    padding-top: 40px;
     position: relative;
 }
+.footer .container .text div:last-child{
+    display: flex;
+}
 .footer .container .text div:last-child i{
-    padding-left: 20px;
+    padding-left: 2px;
+    margin-left: 20px;
     color: white;
 }
+
 /* End Footer */
